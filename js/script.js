@@ -36,9 +36,7 @@ const fetchPokemon = async () => {
         spriteContainer.innerHTML = `<img
                src="${data.sprites.front_shiny}"
                alt="${data.name} picture"
-               class="poke-picture"
-               height="150px"
-               width="150px">`;
+               class="poke-picture">`;
 
         //Set Types :
         types.innerHTML = data.types.map(obj => `<span class="type ${obj.type.name}">${obj.type.name}</span>`).join('');
