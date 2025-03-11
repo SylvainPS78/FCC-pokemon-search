@@ -39,7 +39,7 @@ h1 {
 .main-container {
 background-color: var(--white);
 height: clamp(650px,80vh,800px);
-width:clamp(450px,35vw,550px);
+width:clamp(300px,35vw,550px);
 border-radius: 20px;
 display: flex;
 flex-direction: column;
